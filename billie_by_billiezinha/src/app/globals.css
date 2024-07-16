@@ -1,0 +1,62 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+header ul{
+  display: flex;
+  padding:30px 80px 30px 30px;
+  gap: 20px;
+}
+
+header a {
+  color: aliceblue;
+}
+
+.titulo {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  margin-left: 20px;
+  color: white;
+}
+
+.textotitulo {
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
+}
+
