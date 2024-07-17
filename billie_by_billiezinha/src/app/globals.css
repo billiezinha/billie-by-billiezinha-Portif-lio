@@ -24,51 +24,9 @@
   }
 } */
 
+/* Arquivo globals.css */
 body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  background-color: black;
 }
-
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px;
-}
-
-header .titulo {
-  color: white;
-}
-
-header nav {
-  margin-left: auto;
-}
-
-header ul {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  padding: 0;
-}
-
-header a {
-  color: aliceblue;
-  text-decoration: none;
-}
-
-.titulo {
-  display: flex;
-  height: 50px;
-  align-items: center;
-  margin-left: 20px;
-  color: white;
-}
-
-.textotitulo {
-  display: flex;
-  margin-top: 40px;
-  text-align: center;
-}
-

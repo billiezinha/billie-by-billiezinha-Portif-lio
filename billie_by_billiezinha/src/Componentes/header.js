@@ -1,20 +1,20 @@
-// components/Header.js
 import Link from 'next/link';
+import styles from './Header.module.css'; // Certifique-se de que o caminho está correto
 
 const Header = () => {
   return (
-    <header>
-      <div className="titulo">
+    <header className={styles.header}>
+      <div className={styles.titulo}>
         <h1>Billie Eilish</h1>
-        <div className="textotitulo">
+        <div className={styles.textotitulo}>
           <p>by billiezinha: <br /> Portifólio</p>
         </div>
       </div>
-      <nav>
-        <ul>
-          <li><Link href="/">Discográfia</Link></li>
-          <li><Link href="/amigos">Historia</Link></li>
-          <li><Link href="/perfil">Links</Link></li>
+      <nav className={styles.nav}>
+        <ul className={styles.ul}>
+          <li><Link href="/" className={styles.a}>Discográfia</Link></li>
+          <li><Link href="/amigos" className={styles.a}>Historia</Link></li>
+          <li><Link href="/perfil" className={styles.a}>Links</Link></li>
         </ul>
       </nav>
     </header>

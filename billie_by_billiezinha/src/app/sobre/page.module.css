@@ -1,0 +1,26 @@
+/* pages/sobre/page.module.css */
+.body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #0AA1E9;
+  }
+  
+  .titulo {
+    margin-top: 20px;
+    color: #0AA1E9;
+  }
+  
+  .texto {
+    color: #0AA1E9;
+text-align: center;
+  }
+  
