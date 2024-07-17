@@ -1,34 +1,14 @@
-import { headers } from "next/headers"
+// pages/sobre.js
+import Header from '../../componentes/Header';
 
-export default function Sobre(){
-
-    return(
-
-        <header>
-            
-        <div className="titulo">
-            <h1>Billie Eilish</h1>
-            <div className="textotitulo">
-                <p>by billiezinha: <br /> Portifólio</p>
-            </div>
-        </div>
-
-        <ul>
-        <li>
-            <a href="#INICIO">INICIO</a>
-        </li>
-        <li>
-            <a href="#SOBRE">SOBRE</a>
-        </li>
-        <li>
-            <a href="#SERVICOS">SERVIÇOS</a>
-        </li>
-        <li>
-            <a href="#CTT">CONTATO</a>
-        </li>
-    </ul>
-        </header>
-
-
-    );
+export default function Sobre() {
+  return (
+    <div>
+      <Header />
+      <main>
+        <h2>Sobre</h2>
+        <p>Informações sobre Billie Eilish...</p>
+      </main>
+    </div>
+  );
 }
