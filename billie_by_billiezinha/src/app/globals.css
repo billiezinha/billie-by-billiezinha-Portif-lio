@@ -34,7 +34,7 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Centraliza verticalmente os itens no header */
+  align-items: center;
   padding: 20px;
 }
 
@@ -43,19 +43,19 @@ header .titulo {
 }
 
 header nav {
-  margin-left: auto; /* Empurra o menu para a direita */
+  margin-left: auto;
 }
 
 header ul {
   display: flex;
   gap: 20px;
-  list-style: none; /* Remove os marcadores das listas */
-  padding: 0; /* Remove o padding padrão das listas */
+  list-style: none;
+  padding: 0;
 }
 
 header a {
   color: aliceblue;
-  text-decoration: none; /* Remove a sublinha dos links */
+  text-decoration: none;
 }
 
 .titulo {
