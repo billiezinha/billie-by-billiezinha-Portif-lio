@@ -12,9 +12,9 @@ const Header = () => {
       </div>
       <nav>
         <ul>
-          <li><Link href="/">Página Inicial</Link></li>
-          <li><Link href="/amigos">Amigos</Link></li>
-          <li><Link href="/perfil">Perfil</Link></li>
+          <li><Link href="/">Discográfia</Link></li>
+          <li><Link href="/amigos">Historia</Link></li>
+          <li><Link href="/perfil">Links</Link></li>
         </ul>
       </nav>
     </header>
