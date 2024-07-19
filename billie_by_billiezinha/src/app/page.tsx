@@ -7,7 +7,7 @@ export default function Discografia() {
       <Header />
       <div className={styles.dont}>
         <div className={styles.donttitulo}>
-          <h1>don't smile at me</h1>
+          <h1>dont smile at me</h1>
         </div>
         <div className={styles.mscdont}>
           <iframe
@@ -24,7 +24,7 @@ export default function Discografia() {
 
       <div className={styles.when}>
         <div className={styles.conteudowhen}>
-          <img className={styles.whentitulo} src="img/when-titulo.webp" alt="WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?" />
+          <img className={styles.whentitulo} src="/img/when-titulo.webp.webp" alt="WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?" />
           <div className={styles.mscwhen}>
             <iframe
               title="when"

@@ -1,174 +1,169 @@
-/* Arquivo page.module.css */
 .dont {
-    background: url("../img/dont-01.webp") center/cover;
-    display: flex;
-    flex-direction: column;
-    height: 700px;
-    width: 100%;
-    justify-content: flex-end;
+  background: url("/img/dont-01.webp") center/cover;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.donttitulo {
+  display: flex;
+  margin-right: 110px;
+  color: #d62424;
+  font-family: sans-serif;
+  justify-content: flex-end;
+  margin: 20px 70px;
+}
+
+.mscdont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  align-self: flex-end;
+}
+
+.mscdont audio {
+  height: 30px;
+  margin: 1px;
+  background-color: #d62424;
+}
+
+.when {
+  background: url("/img/when-01.jpeg.webp") center/cover;
+  color: white;
+  display: flex;
+  height: 700px;
+  width: 100%;
+}
+
+.whentitulo {
+  margin-left: 180px;
+  margin-top: 30px;
+  height: 100px;
+}
+
+.mscwhen {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.happier {
+  background: url("/img/happier-01.jpeg.webp") center/cover;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.happiertitulo {
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.mschappier {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.mschappier audio {
+  background-color: #7e5c3f;
+}
+
+.hitme {
+  background: url("/img/hitme.webp.webp") center/cover;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.HITMEtitulo {
+  height: 100px;
+  display: flex;
+  margin-top: 20px;
+  font-family: "Archivo Black", sans-serif;
+  color: #064cad;
+  font-size: 15px;
+  margin-left: 80px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.mschitme {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .titulo, .dont, .when, .happier, .hitme {
+    height: auto;
+    background-position: top;
   }
-  
-  .donttitulo {
-    display: flex;
-    margin-right: 110px;
-    color: #d62424;
-    font-family: sans-serif;
-    justify-content: flex-end;
-    margin: 20px 70px;
+
+  .textotitulo, .donttitulo, .whentitulo, .happiertitulo, .HITMEtitulo {
+    justify-content: center;
   }
-  
-  .mscdont {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 50px;
-    margin-bottom: 20px;
-    align-self: flex-end;
+
+  .texto {
+    margin: 10px;
   }
-  
-  .mscdont audio {
-    height: 30px;
-    margin: 1px;
-    background-color: #d62424;
+
+  .fim {
+    height: auto;
   }
-  
-  .when {
-    background: url("../img/when-01.jpeg.webp") center/cover;
-    color: white;
-    display: flex;
-    height: 700px;
-    width: 100%;
-  }
-  
-  .whentitulo {
-    margin-left: 180px;
-    margin-top: 30px;
-    height: 100px;
-  }
-  
-  .mscwhen {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-  }
-  
-  .happier {
-    background: url("../img/happier-01.jpeg.webp") center/cover;
-    display: flex;
-    height: 700px;
-    width: 100%;
-    justify-content: flex-end;
-  }
-  
-  .happiertitulo {
-    height: 150px;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20px;
-  }
-  
-  .mschappier {
-    display: flex;
-    flex-direction: column;
-    margin-right: 50px;
-  }
-  
-  .mschappier audio {
-    background-color: #7e5c3f;
-  }
-  
-  .hitme {
-    background: url("../img/hitme.webp.webp") center/cover;
-    display: flex;
-    height: 700px;
-    width: 100%;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  .HITMEtitulo {
-    height: 100px;
-    display: flex;
-    margin-top: 20px;
-    font-family: "Archivo Black", sans-serif;
-    color: #064cad;
-    font-size: 15px;
-    margin-left: 80px;
-    margin-right: 20px;
-    text-align: center;
-  }
-  
-  .mschitme {
-    display: flex;
-    flex-direction: column;
-    margin-left: 35px;
-    margin-right: 30px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .titulo, .dont, .when, .happier, .Clipes, .hitme {
-      height: auto;
-      background-position: top;
-    }
-  
-    .textotitulo, .donttitulo, .whentitulo, .happiertitulo, .clipestitulo, .HITMEtitulo {
-      justify-content: center;
-    }
-  
-    .texto {
-      margin: 10px;
-    }
-  
-    .fim {
-      height: auto;
-    }
-  }
-  
-  @media screen and (max-width: 576px) {
-    .titulo {
-      height: 500px;
-    }
-  
-    .textotitulo h1 {
-      font-size: 24px;
-    }
-  
-    .textotitulo p {
-      font-size: 14px;
-    }
-  
-    .donttitulo {
-      margin-right: 20px;
-    }
-  
-    .whentitulo {
-      margin-left: 20px;
-    }
-  
-    .happiertitulo {
-      margin-left: 20px;
-    }
-  
-    .HITMEtitulo {
-      margin-left: 20px;
-    }
-  
-    .clipestitulo {
-      margin-top: 30px;
-    }
-  }
-  
-  .teste {
-    width: 500px;
+}
+
+@media screen and (max-width: 576px) {
+  .titulo {
     height: 500px;
-    max-width: 600px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .teste {
-      width: 100%;
-      height: auto;
-      max-width: none;
-    }
+
+  .textotitulo h1 {
+    font-size: 24px;
   }
-  
+
+  .textotitulo p {
+    font-size: 14px;
+  }
+
+  .donttitulo {
+    margin-right: 20px;
+  }
+
+  .whentitulo {
+    margin-left: 20px;
+  }
+
+  .happiertitulo {
+    margin-left: 20px;
+  }
+
+  .HITMEtitulo {
+    margin-left: 20px;
+  }
+
+}
+
+.teste {
+  width: 500px;
+  height: 500px;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .teste {
+    width: 100%;
+    height: auto;
+    max-width: none;
+  }
+}
