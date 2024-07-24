@@ -8,6 +8,8 @@ export default function Sobre() {
       <picture><img src="" alt="" /></picture>
       <main className={styles.main}>
         <h2 className={styles.titulo}>Sobre</h2>
+        <img src="../public/img/bill.jpg" alt="billie" />
+
         <p className={styles.texto}>Billie Eilish é uma cantora e compositora americana nascida em 18 de dezembro de 2001, em Los Angeles, Califórnia. Desde jovem, ela demonstrou interesse pela música, influenciada por sua família artística. Sua carreira começou a decolar em 2015, quando ela lançou a música "Ocean Eyes" no SoundCloud, que rapidamente se tornou um sucesso. <br />
 
 Billie é conhecida por seu estilo único e letras introspectivas, abordando temas como saúde mental, relacionamentos e identidade. Seu álbum de estreia, "When We All Fall Asleep, Where Do We Go?", lançado em 2019, foi um marco na sua carreira, conquistando prêmios Grammy e consolidando-a como uma das vozes mais influentes da música contemporânea. <br />

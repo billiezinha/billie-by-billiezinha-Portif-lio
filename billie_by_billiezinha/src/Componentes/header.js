@@ -1,7 +1,16 @@
+"use client";
+
+import { useState } from 'react';
 import Link from 'next/link';
-import styles from './Header.module.css'; // Certifique-se de que o caminho está correto
+import styles from './Header.module.css';
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className={styles.header}>
       <div className={styles.titulo}>
@@ -11,10 +20,18 @@ const Header = () => {
         </div>
       </div>
       <nav className={styles.nav}>
-        <ul className={styles.ul}>
+        <button
+          className={styles.menuButton}
+          onClick={toggleMenu}
+          aria-expanded={menuOpen}
+          aria-controls="menu"
+        >
+          ☰
+        </button>
+        <ul id="menu" className={`${styles.ul} ${menuOpen ? styles.showMenu : ''}`}>
           <li><Link href="/" className={styles.a}>Discográfia</Link></li>
-          <li><Link href="/sobre" className={styles.a}>Sobre</Link></li>
           <li><Link href="/perfil" className={styles.a}>Links</Link></li>
+          <li><Link href="/sobre" className={styles.a}>Sobre</Link></li>
         </ul>
       </nav>
     </header>
